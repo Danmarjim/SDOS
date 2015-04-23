@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    >
+
+    <TextView
+        android:id="@+id/descTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/icon"
+        android:layout_marginLeft="5dp"
+        android:text="Descripción"
+        android:textSize="10sp" />
+
+    <TextView android:id="@+id/typeTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Tipo Tarea"
+        android:textSize="10sp" />
+
+    <TextView android:id="@+id/dateTask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:text="Fecha Tarea"
+        android:textSize="10sp" />
+
+
+</LinearLayout>
+
+<!-- From: file:/Users/Dani/Downloads/SDOS1/app/src/main/res/layout/fragment_list_item.xml -->

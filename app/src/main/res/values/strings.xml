@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SDOS</string>
+    <string name="title_section1">Lista de tareas</string>
+    <string name="title_section2">Tareas Completadas</string>
+    <string name="title_section3">Tareas Pendientes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_actividad_admin">Crear Tarea</string>
+    <string name="desc">Descripcion imagen</string>
+    <string name="textoUsuario">Usuario:</string>
+    <string name="textoPass">Contraseña:</string>
+    <string name="logearse">Acceder</string>
+    <string name="action_cerrarSesion">Cerrar Sesión</string>
+    <string name="action_nuevaTarea">Crear nueva tarea</string>
+    
+    <string name="nuevaTarea">Crear nueva tarea</string>
+    <string name="textoDes">Descripción de la tarea:</string>
+    <string name="textoDur">Fin de la tarea:</string>
+    <string name="tipoTarea">Tipo de tarea:</string>
+    <string name="fecha">Fecha tarea</string>
+    <string name="selecTarea">Seleccionar tarea</string>
+    <string name="inserTarea">Añadir</string>
+       
+    <string-array name="tareas">
+        <item>Seleccionar tarea&#8230;</item>
+        <item>Reponedor de productos</item>
+        <item>Cobrar</item>
+        <item>Envolver</item>
+    </string-array>
+    
+    <string-array name="nav_drawer_items">
+        <item >Lista de Tareas</item>
+        <item >Tareas pendientes</item>
+    </string-array>
+    
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher2</item>
+        <item>@drawable/ic_launcher2</item>
+    </array>
+    
+    <string name="desc_list_item_icon">Icono Item</string>
+    <string name="user_not_found">User not found</string>
+
+</resources>

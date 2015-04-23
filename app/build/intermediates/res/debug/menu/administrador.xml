@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dani.prueba.sdos.ui.activities.AdministradorActivity" >
+
+    <item
+        android:id="@+id/action_cerrarSesion"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_cerrar_sesion"
+        android:title="@string/action_cerrarSesion"
+        app:showAsAction="always"/>
+
+</menu>
+<!-- From: file:/Users/Dani/Downloads/SDOS1/app/src/main/res/menu/administrador.xml -->

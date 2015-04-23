@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pantalla_login"
+    android:orientation="vertical"
+    tools:context="com.dani.prueba.sdos.ui.activities.AdministradorActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textoDes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textoTarea" />
+
+    <EditText
+        android:id="@+id/textoDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="150"
+        android:gravity="left|top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textoDur"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textoTarea" />
+
+    <EditText
+        android:id="@+id/textoFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:focusable="false"
+        android:hint="@string/fecha"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColorHint="@color/texto" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tipoTarea"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textoTarea" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/tareas"
+        android:prompt="@string/selecTarea" />
+
+    <Button
+        android:id="@+id/botonInserTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="@string/inserTarea"
+        android:textColor="@color/boton" />
+</LinearLayout>

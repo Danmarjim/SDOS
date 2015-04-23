@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48-cec1d34086fb74eedd04c3b6cb02b5c36161fcac.jar"
+        jar="/Users/Dani/Downloads/SDOS1/app/libs/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5"/>
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48-226c49c5fee3f6d2ab1967adf9c1a163e8bcb3c1.jar"
+        jar="/Users/Dani/Downloads/SDOS1/app/libs/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16"/>
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/classes-345b9a7fe04d03ce9036c18ab13350a108b2f403.jar"
+        jar="/Users/Dani/Downloads/SDOS1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ee576f91b45a6538d4156fc6e674b6f65034f74e.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/classes-ef4e92ea3ac8c216bdfcab51c1ea11c4bbed1aab.jar"
+        jar="/Users/Dani/Downloads/SDOS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/Users/Dani/Downloads/SDOS1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-c51f989407f0aa3a840332d403f6bf36e2565da0.jar"
+        jar="/Users/Dani/Downloads/SDOS1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+
+</pre-dex-items>
